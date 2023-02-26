@@ -14,7 +14,7 @@ class IntroView(arcade.View):
         super().__init__()
         self.phase = IntroPhase.BEGIN
         self.frame = 0
-        self.logo = arcade.Sprite('Resources/BloppyHB.png', scale=0.4)
+        self.logo = arcade.Sprite('Resources/BloppyHB.png', scale=0.3)
         self.logo.set_position(960, 540)
         self.logo.alpha = 0
 
